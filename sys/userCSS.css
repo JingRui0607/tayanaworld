@@ -1,0 +1,27 @@
+﻿body {
+}
+
+table tr:nth-child(1) {
+    border-top: none;
+}
+table tr:nth-child(1) th {
+    border-top: none;
+}
+table tr th, table tr td {
+    padding: 10px 5px;
+}
+table tr th:nth-child(1) {
+    width: 80px;
+}
+    table tr th:nth-child(2) {
+        width: 80px;
+    }
+    table tr th:nth-child(3) {
+        width: 200px;
+    }
+    table tr th:nth-child(9) {
+        width: 80px;
+    }
+.table-responsive {
+    overflow: hidden !important;
+}
